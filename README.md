@@ -34,6 +34,7 @@ If there are questions about a feature, code questions, blockages (challenges) p
   <li>File, class and id names should be all lowercase with dashes for spacing (if needed).</li>
   <li>Any nesting must be properly tabbed, and every element should be returned as a new line.</li>
 </ul>
+<img src="./images/html-css.png">
 
 <b>Javascript</b>
 <ul>
@@ -42,6 +43,9 @@ If there are questions about a feature, code questions, blockages (challenges) p
   <li>Use block comment when noting a feature.</li>
   <li>Each Javascript feature should have a block comment of psuedo code.</li>
 </ul>
+<img src="./images/javascript.png">
+<b>Formatting example</b>
+<img src="./images/formatting.png">
 
 <b>Sublime Text</b>
 <ul>
