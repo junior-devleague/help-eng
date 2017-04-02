@@ -58,7 +58,7 @@ If there are questions about a feature, code questions, blockages (challenges) p
   <li>Example: ‘completed top navigation in html, links do not work yet’</li>
 </ul>
 
-<h2>Task Breakdown</h2>
+<h2>Task Breakdown - Part 1</h2>
 
 <b>Creating the Views</b>
 <ul>
@@ -73,8 +73,22 @@ If there are questions about a feature, code questions, blockages (challenges) p
   <li>Create a block comment when introducing styles for a feature.</li>
 </ul>
 
-<b>Creating Javascript</b>
+<b>User Interactions</b>
 <ul>
   <li>All of the javascript will be in the js/app.js</li>
   <li>Start each task with a block comment and include your pseudo code.</li>
+  <li>Create array objects of mock data per page and store them in a variable</li>
+  <li>Dynamically display mock data per view.</li>
+  <li>Create interactive buttons for the top navigation</li>
+  <li>Sort - display data based on a keyword. Make the first items data show as default.</li>
+</ul>
+
+<h2>Task Breakdown - part 2</h2>
+<ul>
+  <li>If user clicks delete, remove item</li>
+  <li>Create test mock data</li>
+  <li>Create test logic to check for correct answers else give correct answer</li>
+  <li>Create chrome extension</li>
+  <li>Add styles for chrome extension</li>
+  <li></li>
 </ul>
