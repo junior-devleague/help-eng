@@ -16,7 +16,7 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
 <hr>
 
 <h3>Daily Scrum</h3>
-<b>Teams will meet daily for the first 5-10 mins of class to report the following.</b>
+<b>Teams will meet daily for the first 5-10 mins of class to report the following:</b>
 <ul>
   <li>Progress on their feature.</li>
   <li>What they're going to work on that day.</li>
