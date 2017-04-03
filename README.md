@@ -1,6 +1,9 @@
 # help-eng
 WHS HelpEng Final Project
 
+<p>Project Manager: Not Assigned<br>
+Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
+
 <h3>Final Project Breakdown</h3>
 <b>Assignments and Grading for the 4th quarter</b>
 <ul>
@@ -9,10 +12,19 @@ WHS HelpEng Final Project
   <li>Research assignments: Every other week as a medium blog or Journal entry</li>
 </ul>
 
-Project Manager: Not Assigned
-Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan
 
-<b>Project Manager reports via slack as a snippet to the instructors the following:</b>
+<hr>
+
+<b>Daily Scrum</b>
+<p>Teams will meet daily for the first 5-10 mins of class to report the following.
+<ul>
+  <li>Progress on their feature.</li>
+  <li>What they're going to work on that day.</li>
+  <li>Any blockages per feature or clarifications they may need.</li>
+</ul>
+</p>
+
+<b>Project Manager reports daily to the instructors the following:</b>
 <ul>
   <li>Progress per feature that the group is currently working on.</li>
   <li>Projection as to what will be accomplished by the end of the week.</li>
@@ -25,7 +37,8 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan
   <li>A pull request is made</li>
 </ul>
 
-If there are questions about a feature, code questions, blockages (challenges) please notify an instructor via Slack.
+
+<p>If there are questions about a feature, code questions, blockages (challenges) please notify an instructor via Slack.</p>
 
 <h3>Formatting Structure</h3>
 
