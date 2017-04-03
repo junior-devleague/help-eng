@@ -12,7 +12,6 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
   <li>Research assignments: Given every other week and turned in as a medium blog or Journal entry</li>
 </ul>
 
-
 <hr>
 
 <h3>Daily Scrum</h3>
