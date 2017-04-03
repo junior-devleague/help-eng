@@ -52,7 +52,8 @@ If there are questions about a feature, code questions, blockages (challenges) p
   <li>Set spaces: 2</li>
 </ul>
 
-<b>Github Commit messages</b>
+<b>Git flow and Github Commit messages</b>
+<img src="./images/git-flow.png">
 <ul>
   <li>What was completed, any current bugs.</li>
   <li>Example: ‘completed top navigation in html, links do not work yet’</li>
