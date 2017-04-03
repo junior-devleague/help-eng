@@ -67,7 +67,7 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
   <li>Set spaces: 2</li>
 </ul>
 
-<b>Git flow and Github Commit Messages</b>
+<b>Git flow and Github Commit Messages</b><br>
 <b>Git Flow</b>
 <img src="./images/git-flow.png">
 <b>Github Commit Messages</b>
