@@ -18,27 +18,27 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
 <h3>Daily Scrum</h3>
 <b>Teams will meet daily for the first 5-10 mins of class to report the following:</b>
 <ul>
-  <li>Progress on their feature.</li>
+  <li>Progress on their task.</li>
   <li>What they're going to work on that day.</li>
-  <li>Any blockages per feature or clarifications they may need.</li>
+  <li>Any blockages per task or clarifications they may need.</li>
 </ul>
 
 
 <b>Project Manager reports daily to the instructors the following:</b>
 <ul>
-  <li>Progress per feature that the group is currently working on.</li>
+  <li>Progress per task that the group is currently working on.</li>
   <li>Projection as to what will be accomplished by the end of the week.</li>
-  <li>Any blockages per feature or clarifications the team may need.</li>
+  <li>Any blockages per task or clarifications the team may need.</li>
 </ul>
 
 <b>Developers are to notify the Project Manager and an instructor when:</b>
 <ul>
-  <li>A feature is complete</li>
+  <li>A task is complete</li>
   <li>A pull request is made</li>
 </ul>
 
 
-<p>If there are questions about a feature, code questions, blockages (challenges) please notify an instructor via Slack.</p>
+<p>If there are questions about a task, code questions, blockages (challenges) please notify an instructor via Slack.</p>
 
 <hr>
 
@@ -55,8 +55,8 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
 <ul>
   <li>Function names and variables should be camelcase.</li>
   <li>Any nesting must be properly tabbed. No one liners for multiple lines of code.</li>
-  <li>Use block comment when noting a feature.</li>
-  <li>Each Javascript feature should have a block comment of psuedo code.</li>
+  <li>Use block comment for each a task.</li>
+  <li>Each Javascript task/task should have a block comment of psuedo code.</li>
 </ul>
 <img src="./images/javascript.png">
 <b>Formatting example</b>
@@ -90,7 +90,7 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
 <ul>
   <li>All of the css will be in the css/styles.css</li>
   <li>Assign classes to reusable styles.</li>
-  <li>Create a block comment when introducing styles for a feature.</li>
+  <li>Create a block comment if styles are for a specific view or user interaction, otherwise it's considered a general style.</li>
 </ul>
 
 <b>User Interactions</b>
