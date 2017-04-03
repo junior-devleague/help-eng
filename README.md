@@ -67,8 +67,10 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
   <li>Set spaces: 2</li>
 </ul>
 
-<b>Git flow and Github Commit messages</b>
+<b>Git flow and Github Commit Messages</b>
+<b>Git Flow</b>
 <img src="./images/git-flow.png">
+<b>Github Commit Messages</b>
 <ul>
   <li>What was completed, any current bugs.</li>
   <li>Example: ‘completed top navigation in html, links do not work yet’</li>
