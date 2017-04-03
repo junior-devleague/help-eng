@@ -15,14 +15,14 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
 
 <hr>
 
-<b>Daily Scrum</b>
-<p>Teams will meet daily for the first 5-10 mins of class to report the following.
+<h3>Daily Scrum</h3>
+<b>Teams will meet daily for the first 5-10 mins of class to report the following.</b>
 <ul>
   <li>Progress on their feature.</li>
   <li>What they're going to work on that day.</li>
   <li>Any blockages per feature or clarifications they may need.</li>
 </ul>
-</p>
+
 
 <b>Project Manager reports daily to the instructors the following:</b>
 <ul>
@@ -39,6 +39,8 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
 
 
 <p>If there are questions about a feature, code questions, blockages (challenges) please notify an instructor via Slack.</p>
+
+<hr>
 
 <h3>Formatting Structure</h3>
 
@@ -71,6 +73,8 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
   <li>What was completed, any current bugs.</li>
   <li>Example: ‘completed top navigation in html, links do not work yet’</li>
 </ul>
+
+<hr>
 
 <h2>Task Breakdown - Part 1</h2>
 
