@@ -9,7 +9,7 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
 <ul>
   <li>Final project: Minimum of 3 commits a week and Pull request when a task is complete.</li>
   <li>Quizzes: Take home quiz every other week</li>
-  <li>Research assignments: Every other week as a medium blog or Journal entry</li>
+  <li>Research assignments: Given very other week and turned in as a medium blog or Journal entry</li>
 </ul>
 
 
@@ -56,7 +56,7 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
   <li>Function names and variables should be camelcase.</li>
   <li>Any nesting must be properly tabbed. No one liners for multiple lines of code.</li>
   <li>Use block comment for each a task.</li>
-  <li>Each Javascript task/task should have a block comment of psuedo code.</li>
+  <li>Each Javascript task should have a block comment of psuedo code.</li>
 </ul>
 <img src="./images/javascript.png">
 <b>Formatting example</b>
