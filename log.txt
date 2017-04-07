@@ -1,0 +1,8 @@
+Day 01~~
+9:18
+
+Today we assigned tasks, and created the basic files we will use for our project.
+Dylan: Added index.html, linked javascript and css, created log.txt
+Mark: created javascript with sanity check
+Kay: helped create css
+Edsen:created css/styles.css

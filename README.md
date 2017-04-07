@@ -1,7 +1,7 @@
 # help-eng
 WHS HelpEng Final Project
 
-<p>Project Manager: Not Assigned<br>
+<p>Project Manager: Dylan Tucker<br>
 Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
 
 <h3>Final Project Breakdown</h3>
