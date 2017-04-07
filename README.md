@@ -106,6 +106,7 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
   <li>If user clicks delete, add class to 'remove' item</li>
   <li>Create test mock data</li>
   <li>Create test logic to check for correct answers else give correct answer</li>
+  <li>Make actual forms but do not send data.</li>
 </ul>
 
 <h2>Stretch Goals</h2>
