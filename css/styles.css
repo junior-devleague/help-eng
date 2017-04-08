@@ -1,3 +1,38 @@
 body {
 	background-color: maroon;
 }
+
+header {
+	background-color: grey;
+	height: 100px;
+}
+
+#note-taker {
+	width: 20px;
+	height: 10px;
+	background-color: green;
+	color: white;
+}
+
+#quiz-taker {
+	width: 20px;
+	height: 10px;
+	background-color: green;
+	color: white;
+}
+
+.container {
+	display: flex;
+		flex-direction: column; 
+	height: 500px;
+	width: 500px;
+}
+
+.body-div {
+	background-color: yellow;
+	justify-content: space-between;
+	margin: 5px;
+	height: 20%;
+	width: 90%;
+}
+
