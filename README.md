@@ -90,6 +90,18 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
   <li>Assign classes to reusable styles.</li>
   <li>Create a block comment if styles are for a specific view or user interaction, otherwise it's considered a general style.</li>
 </ul>
+<ul>
+  <li><b>Colors</b><ul>
+    <li>Green: #A9E1B7</li>
+    <li>Dark Gray: #838383</li>
+    <li>Light Gray: #EDEDED</li>
+  </ul></li>
+  <li><b>Fonts</b><ul>
+    <li>Logo: <a href="https://fonts.google.com/specimen/Gloria+Hallelujah">Gloria Hallelujah</a></li>
+    <li>Headings: <a href="https://fonts.google.com/specimen/Oswald">Oswald</a></li>
+    <li>Ariel - accessible via any browser</li>
+  </ul></li>
+</ul>
 
 <b>User Interactions</b>
 <ul>
