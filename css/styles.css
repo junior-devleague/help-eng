@@ -9,21 +9,22 @@ header {
 }
 
 aside {
-	width: 25%;
-	margin: 0.5%;
+	width: 30%;
+	margin-top: 50px;
+	background-color: yellow;
 }
 
 #note-taker {
 	width: 20px;
 	height: 10px;
-	background-color: #A9E1B7;
+	background-color: #A9E1B7; /*green*/
 	color: white;
 }
 
 #quiz-taker {
 	width: 20px;
 	height: 10px;
-	background-color: #A9E1B7;
+	background-color: #A9E1B7; /*green*/
 	color: white;
 }
 
@@ -33,6 +34,7 @@ aside {
 	align-items: flex-end;
 	height: 500px;
 	margin-top: 2%;
+
 }
 
 .body-div {
@@ -45,4 +47,12 @@ aside {
 	height: 30%;
 	width: 60%;
 }
+
+
+.note-items:hover {
+	background-color: #A9E1B7; /*green*/
+	color: white;
+}
+
+
 
