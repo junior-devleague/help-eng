@@ -1,9 +1,9 @@
 body {
-	background-color: purple;
+	background-color: white;
 }
 
 header {
-	background-color: grey;
+	background-color: #838383;
 	height: 100px;
 	margin: -10px;
 }
@@ -11,14 +11,14 @@ header {
 #note-taker {
 	width: 20px;
 	height: 10px;
-	background-color: green;
+	background-color: #A9E1B7;
 	color: white;
 }
 
 #quiz-taker {
 	width: 20px;
 	height: 10px;
-	background-color: green;
+	background-color: #A9E1B7;
 	color: white;
 }
 
@@ -31,7 +31,7 @@ header {
 }
 
 .body-div {
-	background-color: yellow;
+	background-color: #EDEDED;
 	justify-content: space-between;
 	margin: 5px;
 	height: 20%;
