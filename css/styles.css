@@ -31,7 +31,6 @@ header {
 .body-div {
 	background-color: #EDEDED;
 	justify-content: space-between;
-	align-items: flex-end;
 	margin: 5px;
 	height: 100px;
 	width: 100px;
