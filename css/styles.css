@@ -1,10 +1,11 @@
 body {
-	background-color: maroon;
+	background-color: purple;
 }
 
 header {
 	background-color: grey;
 	height: 100px;
+	margin: -10px;
 }
 
 #note-taker {
@@ -26,6 +27,7 @@ header {
 		flex-direction: column; 
 	height: 500px;
 	width: 500px;
+	margin-top: 15px;
 }
 
 .body-div {
