@@ -5,6 +5,7 @@ body {
 header {
 	background-color: #838383;
 	height: 100px;
+	margin: -10px;
 }
 
 #note-taker {
@@ -26,13 +27,14 @@ header {
 		flex-direction: column; 
 	height: 500px;
 	width: 500px;
+	margin-top: 15px;
 }
 
 .body-div {
 	background-color: #EDEDED;
 	justify-content: space-between;
 	margin: 5px;
-	height: 100px;
-	width: 100px;
+	height: 20%;
+	width: 90%;
 }
 
