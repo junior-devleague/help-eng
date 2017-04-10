@@ -1,7 +1,7 @@
 # help-eng
 WHS HelpEng Final Project
 
-<p>Project Manager: Not Assigned<br>
+<p>Project Manager: Dylan Tucker<br>
 Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
 
 <h3>Final Project Breakdown</h3>
@@ -90,6 +90,18 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
   <li>Assign classes to reusable styles.</li>
   <li>Create a block comment if styles are for a specific view or user interaction, otherwise it's considered a general style.</li>
 </ul>
+<ul>
+  <li><b>Colors</b><ul>
+    <li>Green: #A9E1B7</li>
+    <li>Dark Gray: #838383</li>
+    <li>Light Gray: #EDEDED</li>
+  </ul></li>
+  <li><b>Fonts</b><ul>
+    <li>Logo: <a href="https://fonts.google.com/specimen/Gloria+Hallelujah">Gloria Hallelujah</a></li>
+    <li>Headings: <a href="https://fonts.google.com/specimen/Oswald">Oswald</a></li>
+    <li>Ariel - accessible via any browser</li>
+  </ul></li>
+</ul>
 
 <b>User Interactions</b>
 <ul>
@@ -97,16 +109,20 @@ Developers: Dylan Tucker, Kay Calpito, Mark Demesillo, Edsen Casintahan</p>
   <li>Start each task with a block comment and include your pseudo code.</li>
   <li>Create array objects of mock data per page and store them in a variable</li>
   <li>Dynamically display mock data per view.</li>
+  <li>Sort - display data based on a Subject. Make the first items data show as default.</li>
   <li>Create interactive buttons for the top navigation</li>
-  <li>Sort - display data based on a keyword. Make the first items data show as default.</li>
 </ul>
 
 <h2>Task Breakdown - part 2</h2>
 <ul>
-  <li>If user clicks delete, remove item</li>
+  <li>If user clicks delete, add class to 'remove' item</li>
   <li>Create test mock data</li>
   <li>Create test logic to check for correct answers else give correct answer</li>
+  <li>Make actual forms but do not send data.</li>
+</ul>
+
+<h2>Stretch Goals</h2>
+<ul>
   <li>Create chrome extension</li>
   <li>Add styles for chrome extension</li>
-  <li></li>
 </ul>
