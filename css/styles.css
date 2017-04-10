@@ -30,19 +30,22 @@ aside {
 
 .container {
 	display: flex;
-		flex-direction: column; 
+	flex-direction: column;
+	align-items: flex-end;
 	height: 500px;
-	width: 500px;
-	margin-top: 15px;
-	float: right;
+	margin-top: 2%;
+
 }
 
 .body-div {
 	background-color: #EDEDED;
 	justify-content: space-between;
-	margin: 5px;
-	height: 20%;
-	width: 90%;
+	margin-left: 5px;
+	margin-right: 20px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	height: 30%;
+	width: 60%;
 }
 
 
