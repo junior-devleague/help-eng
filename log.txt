@@ -9,6 +9,8 @@ Edsen:created css/styles.css
 
 
 
+
+
 Day 02~~
 8:35
 --------
@@ -19,3 +21,17 @@ Edsen: Added flexbox to 'body-div' class divs.
 Kay: Added flexbox to 'body-div' class divs.
 
 Next Class: Add more styles and work on aside.
+
+
+
+
+Day 03~~
+8:22
+--------
+Today we added the aside and more of the styles to the page. We improved our header and added all of the links.
+Dylan: Worked on styles and added HTML elements.
+Mark: Worked on HTML and header styles.
+Edsen: Worked more on body styles.
+Kay: Worked with Edsen on body styles.
+
+Next Class: Add functionality through javascript.
