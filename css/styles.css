@@ -8,6 +8,9 @@ body {
 
 header {
 	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center; 
 	flex: 1 1 100%;
 	background-color: #838383;
 	height: 100px;
@@ -27,18 +30,29 @@ aside {
 	flex: 0 1 auto;
 }
 
-#note-taker {
-	width: 20px;
-	height: 10px;
+#note_taker {
+	flex: 0 1 auto;
+	margin: 5px;
+	width: 5%;
 	background-color: #A9E1B7; /*green*/
 	color: white;
 }
 
-#quiz-taker {
-	width: 20px;
-	height: 10px;
+#quiz_taker {
+	flex: 0 1 auto;
+	margin: 5px;
+	width: 5%;
 	background-color: #A9E1B7; /*green*/
 	color: white;
+}
+
+#app_name {
+	flex: 0 1 auto;
+	margin: 5px;
+	width: 80%;
+	background-color: #838383;
+	color: #A9E1B7;
+	text-align: center;
 }
 
 .container {
@@ -53,21 +67,25 @@ aside {
 }
 
 .body-div {
-	background-color: #EDEDED;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
 	justify-content: space-between;
-	margin-left: 5px;
-	margin-right: 20px;
-	margin-top: 5px;
-	margin-bottom: 5px;
+	margin: 5px 20px 5px 5px;
+	background-color: #EDEDED;
 	height: 30%;
 	width: 90%;
 }
 
+.options {
+	flex: 1 1 0px;
+	width: 20%;
+	height: 33%;
+	margin: 3px;
+	background-color: #838383;
+}
 
 .note-items:hover {
 	background-color: #A9E1B7; /*green*/
 	color: white;
 }
-
-
-
