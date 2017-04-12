@@ -35,3 +35,14 @@ Edsen: Worked more on body styles.
 Kay: Worked with Edsen on body styles.
 
 Next Class: Add functionality through javascript.
+
+Day 04~~
+9:12
+--------
+Today we fixed our layout and started to add fonts and text styles. Also Mark started to work on the Javascript and adding the mock data.
+Dylan: Worked on CSS and HTML adding options and fixing flexbox.
+Mark: Started to add Javascript mock data.
+Edsen: Added fonts to the CSS.
+Kay: Also added fonts to the CSS.
+
+Next Class: Continue to improve our layout and add more mock data.
