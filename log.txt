@@ -1,0 +1,37 @@
+Day 01~~
+9:18
+--------
+Today we assigned tasks, and created the basic files we will use for our project.
+Dylan: Added index.html, linked javascript and css, created log.txt
+Mark: created javascript with sanity check
+Kay: helped create css
+Edsen:created css/styles.css
+
+
+
+
+
+Day 02~~
+8:35
+--------
+Today we started laying out our HTML and adding flexbox to the main container.
+Dylan: Researched event listeners and created main container.
+Mark: Added header and elements inside header.
+Edsen: Added flexbox to 'body-div' class divs.
+Kay: Added flexbox to 'body-div' class divs.
+
+Next Class: Add more styles and work on aside.
+
+
+
+
+Day 03~~
+8:22
+--------
+Today we added the aside and more of the styles to the page. We improved our header and added all of the links.
+Dylan: Worked on styles and added HTML elements.
+Mark: Worked on HTML and header styles.
+Edsen: Worked more on body styles.
+Kay: Worked with Edsen on body styles.
+
+Next Class: Add functionality through javascript.
