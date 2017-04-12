@@ -2,11 +2,13 @@ body {
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 }
 
 header {
 	display: flex;
+	flex: 1 1 100%;
 	background-color: #838383;
 	height: 100px;
 	margin: -10px;
@@ -14,9 +16,15 @@ header {
 
 aside {
 	display: flex;
-	width: 20%;
+	flex: 1 1 0px;
+	flex-direction: column;
+	align-items: center;
 	margin-top: 50px;
 	background-color: yellow;
+}
+
+.subject_items, .subject_title {
+	flex: 0 1 auto;
 }
 
 #note-taker {
@@ -35,8 +43,10 @@ aside {
 
 .container {
 	display: flex;
+	flex: 2 2 0px;
 	flex-direction: column;
 	align-items: flex-end;
+	width: 80%;
 	height: 500px;
 	margin-top: 2%;
 
@@ -50,7 +60,7 @@ aside {
 	margin-top: 5px;
 	margin-bottom: 5px;
 	height: 30%;
-	width: 60%;
+	width: 90%;
 }
 
 
