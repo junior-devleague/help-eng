@@ -63,7 +63,6 @@ aside {
 	width: 90%;
 }
 
-
 .note-items:hover {
 	background-color: #A9E1B7; /*green*/
 	color: white;
@@ -89,5 +88,10 @@ aside {
 	font-family: 'Oswald', sans-serif;
 }
 
+.body-div p {
+	font-family: 'Oswald', sans-serif;
+}
 
-
+#note-title {
+	font-family: 'Oswald', sans-serif;
+}
