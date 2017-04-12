@@ -70,6 +70,7 @@ aside {
 
 #app_name p {
 	font-family: 'Gloria Hallelujah', cursive;
+	float: center;
 }
 
 #subject_title {
