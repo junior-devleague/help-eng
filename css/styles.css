@@ -89,3 +89,25 @@ aside {
 	background-color: #A9E1B7; /*green*/
 	color: white;
 }
+
+#app_name p {
+	font-family: 'Gloria Hallelujah', cursive;
+}
+
+#subject_title {
+	font-family: 'Oswald', sans-serif;
+	flex: 0 1 auto;
+}
+
+.subject_items {
+	font-family: 'Oswald', sans-serif;
+	flex: 0 1 auto;
+}
+
+.body-div p {
+	font-family: 'Oswald', sans-serif;
+}
+
+#note-title {
+	font-family: 'Oswald', sans-serif;
+}
