@@ -24,20 +24,32 @@ function note_Taker(){
 
 }
 
-function editNotes(){
+document.querySelectorAll("edit-notes").onclick = function editNotes(){
+	/*
+	placeholder code
+	
 
+	*/
 }
 
-function deleteNotes(){
+document.querySelectorAll("delete").onclick = function deleteNotes(){
+	/*
+	placeholder code
 
+	var removing = document.getElementsByClassName("delete")[whichever_number];
+	removing.remove();
+
+	*/
 }
+
 
 function test_Taker(){
 	/*
-	
+	placeholder code
+
 	if input.innerText == testTaker[0].answer{
 	numCorrect++
 	}
-	
+
 	*/
 }
