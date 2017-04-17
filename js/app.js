@@ -36,7 +36,10 @@ document.querySelectorAll("delete").onclick = function deleteNotes(){
 	/*
 	placeholder code
 
-	var removing = document.getElementsByClassName("delete")[whichever_number];
+	var removing = document.getElementsByClassName("delete");
+	
+	Everytime the delete button is clicked, the specific class number, for example, removing[0], will be pushed to a variable then the code below will execute
+
 	removing.remove();
 
 	*/
