@@ -40,11 +40,10 @@ aside {
 	display: flex;
 	flex: 0.25 1 0px;
 	flex-direction: column;
-	align-items: center;
-	margin-top: 50px;
-	width: 20%;
-	background-color: yellow;
-	padding: 10px;
+	align-items: stretch;
+	margin-top: 2%;
+	padding: 50px;
+	border-right: solid 1px #838383;
 }
 
 .container {
@@ -57,6 +56,17 @@ aside {
 	margin-top: 2%;
 }
 
+#note_title {
+	font-family: 'Oswald', sans-serif;
+	flex: 0 1 auto;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-bottom: 15px;
+	height: 5%;
+	width: 85%;
+	border-bottom: solid 1px #838383; 
+}
+
 .body-div {
 	display: flex;
 	flex-direction: column;
@@ -65,7 +75,7 @@ aside {
 	margin: 5px 20px 5px 5px;
 	background-color: #EDEDED;
 	height: 30%;
-	width: 75%;
+	width: 85%;
 	font-family: 'Oswald', sans-serif;
 	text-align: left;
 }
@@ -83,8 +93,21 @@ aside {
 	color: white;
 }
 
-#subject_title, .subject_items, #note-title{
+#subject_title {
+	flex: 0 1 auto;
 	font-family: 'Oswald', sans-serif;
+	text-overflow: wrap;
+	text-align: center;
+	font-size: 18px;
+	color: #838383;
+	border-bottom: solid 1px #838383;
+	height: 15%;
+	margin-bottom: 5%;
+}
+
+.subject_items {
+	font-family: 'Ariel', sans-serif;
 	flex: 0 1 auto;
 	text-overflow: wrap;
+	height: 10%;
 }
