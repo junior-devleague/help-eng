@@ -21,6 +21,8 @@ var noteTaker = [
 ]
 
 function note_Taker(){
+	var div = document.createElement("DIV");
+
 
 }
 
@@ -38,6 +40,7 @@ document.querySelectorAll("delete").onclick = function deleteNotes(){
 
 	var removing = document.getElementsByClassName("delete");
 	
+	
 	Everytime the delete button is clicked, the specific class number, for example, removing[0], will be pushed to a variable then the code below will execute
 
 	removing.remove();
@@ -49,8 +52,10 @@ document.querySelectorAll("delete").onclick = function deleteNotes(){
 function test_Taker(){
 	/*
 	placeholder code
+	
 
-	if input.innerText == testTaker[0].answer{
+
+	if (input.innerText == testTaker[0].answer){
 	numCorrect++
 	}
 
