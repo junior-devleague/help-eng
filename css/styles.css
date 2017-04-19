@@ -17,12 +17,43 @@ header {
 	margin: -10px;
 }
 
+aside {
+	display: flex;
+	flex: 1 1 0px;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	background-color: yellow;
+}
+
+.subject_items, .subject_title {
+	flex: 0 1 auto;
+}
+
+#note_taker {
+	/*flex: 0 1 auto;*/
+	margin: 5px;
+	width: 80px;
+	height: 30px;
+	color: white;
+}
+
+#note_taker:hover {
+	background-color: #A9E1B7;
+}
+
+#test_taker {
+
 #note_taker, #quiz_taker {
 	flex: 0 1 auto;
+
 	margin: 5px;
-	width: 5%;
-	background-color: #A9E1B7; /*green*/
-	color: white;
+	height: 30px;
+	width: 80px;
+}
+
+#test_taker:hover {
+	background-color: #A9E1B7;
 }
 
 #app_name {
@@ -69,6 +100,10 @@ aside {
 	text-align: left;
 }
 
+.body-div form {
+	padding: 50px;
+}
+
 .options {
 	flex: 1 1 0px;
 	width: 20%;
@@ -85,5 +120,33 @@ aside {
 #subject_title, .subject_items, #note-title{
 	font-family: 'Oswald', sans-serif;
 	flex: 0 1 auto;
-	text-overflow: wrap;
+}
+
+.subject_items {
+	font-family: 'Oswald', sans-serif;
+	flex: 0 1 auto;
+}
+
+.body-div p {
+	font-family: 'Oswald', sans-serif;
+}
+
+#note-title {
+	font-family: 'Oswald', sans-serif;
+}
+
+.submit {
+	height: 40px;
+	width: 120px;
+	background-color: #838383;
+	border-style: none;
+}
+
+.submit:hover {
+	background-color: #A9E1B7;
+}
+
+.answer {
+	height: 35px;
+	width: 525px;
 }
