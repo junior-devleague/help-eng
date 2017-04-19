@@ -17,28 +17,7 @@ header {
 	margin: -10px;
 }
 
-aside {
-	display: flex;
-	flex: 1 1 0px;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 50px;
-	background-color: yellow;
-}
-
-.subject_items, .subject_title {
-	flex: 0 1 auto;
-}
-
-#note_taker {
-	flex: 0 1 auto;
-	margin: 5px;
-	width: 5%;
-	background-color: #A9E1B7; /*green*/
-	color: white;
-}
-
-#quiz_taker {
+#note_taker, #quiz_taker {
 	flex: 0 1 auto;
 	margin: 5px;
 	width: 5%;
@@ -48,13 +27,23 @@ aside {
 
 #app_name {
 	flex: 0 1 auto;
-	margin: 5px;
+	height: inherit;
 	width: 80%;
 	background-color: #838383;
 	color: #A9E1B7;
 	text-align: center;
 	font-family: 'Gloria Hallelujah', cursive;
 	font-size: 30px;
+}
+
+aside {
+	display: flex;
+	flex: 0.25 1 0px;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 50px;
+	width: 20%;
+	background-color: yellow;
 }
 
 .container {
@@ -65,7 +54,6 @@ aside {
 	width: 80%;
 	height: 500px;
 	margin-top: 2%;
-
 }
 
 .body-div {
@@ -76,8 +64,9 @@ aside {
 	margin: 5px 20px 5px 5px;
 	background-color: #EDEDED;
 	height: 30%;
-	width: 90%;
-  font-family: 'Oswald', sans-serif;
+	width: 75%;
+	font-family: 'Oswald', sans-serif;
+	text-align: left;
 }
 
 .options {
@@ -93,20 +82,8 @@ aside {
 	color: white;
 }
 
-#subject_title {
+#subject_title, .subject_items, #note-title{
 	font-family: 'Oswald', sans-serif;
 	flex: 0 1 auto;
-}
-
-.subject_items {
-	font-family: 'Oswald', sans-serif;
-	flex: 0 1 auto;
-}
-
-.body-div p {
-	font-family: 'Oswald', sans-serif;
-}
-
-#note-title {
-	font-family: 'Oswald', sans-serif;
+	text-overflow: wrap;
 }
