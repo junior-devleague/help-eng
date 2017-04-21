@@ -30,7 +30,7 @@ header {
 	background-color: #A9E1B7;
 }
 
-#note_taker, #quiz_taker {
+#test_taker {
 	flex: 0 1 auto;
 	margin: 5px;
 	height: 30px;
@@ -91,10 +91,13 @@ aside {
 
 .options {
 	flex: 1 1 0px;
-	width: 20%;
-	height: 33%;
+	width: 150px;
+	height: 30px;
 	margin: 3px;
 	background-color: #838383;
+	padding-left: 20px;
+	padding-top: 	5px;
+	color: 	white;
 }
 
 .note-items:hover {
@@ -121,12 +124,13 @@ aside {
 	padding-bottom: 20px;
 }
 
-.subject_items {
+.subject_items, .test_items {
 	font-family: 'Ariel', sans-serif;
 	flex: 0 1 auto;
 	text-overflow: wrap;
 	height: 10%;
-	padding: 10%;
+	text-align: center;	
+	padding-top: 20px;
 }
 
 .body-div p {
@@ -152,3 +156,12 @@ aside {
 	height: 35px;
 	width: 525px;
 }
+
+.subject_items:hover {
+	background-color: #A9E1B7;	
+}
+
+.test_items:hover {
+	background-color: #A9E1B7;
+}
+
