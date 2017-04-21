@@ -2,6 +2,7 @@ body {
 	background-color: white;
 	display: flex;
 	justify-content: space-between;
+	align-items: stretch;
 	flex-direction: row;
 	flex-wrap: wrap;
 }
@@ -55,9 +56,8 @@ aside {
 	display: flex;
 	flex: 0.25 1 0px;
 	flex-direction: column;
-	align-items: stretch;
-	margin-top: 2%;
 	padding: 50px;
+	padding-bottom: 32.1em;
 	border-right: solid 1px #838383;
 }
 
@@ -67,19 +67,8 @@ aside {
 	flex-direction: column;
 	align-items: flex-end;
 	width: 80%;
-	height: 500px;
-	margin-top: 2%;
-}
-
-#note_title {
-	font-family: 'Oswald', sans-serif;
-	flex: 0 1 auto;
-	flex-direction: row;
-	justify-content: flex-start;
-	padding-bottom: 15px;
-	height: 5%;
-	width: 85%;
-	border-bottom: solid 1px #838383; 
+	height: 32.250em;
+	padding-top: 50px;
 }
 
 .body-div {
@@ -91,6 +80,7 @@ aside {
 	background-color: #EDEDED;
 	height: 30%;
 	width: 85%;
+	margin-top: 2%;
 	font-family: 'Oswald', sans-serif;
 	text-align: left;
 }
@@ -112,16 +102,23 @@ aside {
 	color: white;
 }
 
+#note_title {
+	width: 95%;
+	text-align: left;
+}
+
 #subject_title {
+	text-align: center;
+}
+
+#subject_title, #note_title {
 	flex: 0 1 auto;
 	font-family: 'Oswald', sans-serif;
 	text-overflow: wrap;
-	text-align: center;
 	font-size: 18px;
 	color: #838383;
 	border-bottom: solid 1px #838383;
-	height: 15%;
-	margin-bottom: 5%;
+	padding-bottom: 20px;
 }
 
 .subject_items {
@@ -129,6 +126,7 @@ aside {
 	flex: 0 1 auto;
 	text-overflow: wrap;
 	height: 10%;
+	padding: 10%;
 }
 
 .body-div p {
