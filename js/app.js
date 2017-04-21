@@ -1,4 +1,4 @@
-var testTaker = [
+/*var testTaker = [
 	{
 		question : "What is " + subject,
 		answer : "The answer"
@@ -18,7 +18,7 @@ var noteTaker = [
 		title : notes_subject,
 		text : notes
 	}
-]
+]*/
 
 function note_Taker(){
 	var div = document.createElement("DIV");
@@ -30,13 +30,24 @@ function note_Taker(){
 
 }
 
-document.querySelectorAll(".edit-notes").onclick = function editNotes(){
+var storeEdit_Notes = [document.getElementsByClassName("edit-notes")[0],
+document.getElementsByClassName("edit-notes")[1],
+document.getElementsByClassName("edit-notes")[2]];
+
+
+function editNotes(){
 	/*
 	placeholder code
 	
 	When clicked it will replace the parent-divs' notes with an input, then will be converted back to a p element by clicking the edit-notes element(the name will be changed to "done"), saving whatever was typed inside the input.
 
 	*/
+	var notes = document.getElementsByClassName("edit-notes");
+	for (var i = 0; i < notes.length; i++){
+		notes[i].addEventListener("click"), function edit(){
+			
+		}
+	}
 }
 
 document.querySelectorAll(".delete").onclick = function deleteNotes(){
