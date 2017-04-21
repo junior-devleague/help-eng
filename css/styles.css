@@ -17,21 +17,8 @@ header {
 	margin: -10px;
 }
 
-aside {
-	display: flex;
-	flex: 1 1 0px;
-	flex-direction: column;
-	align-items: center;
-	margin-top: 50px;
-	background-color: yellow;
-}
-
-.subject_items, .subject_title {
-	flex: 0 1 auto;
-}
-
 #note_taker {
-	/*flex: 0 1 auto;*/
+	flex: 0 1 auto;
 	margin: 5px;
 	width: 80px;
 	height: 30px;
@@ -42,11 +29,8 @@ aside {
 	background-color: #A9E1B7;
 }
 
-#test_taker {
-
 #note_taker, #quiz_taker {
 	flex: 0 1 auto;
-
 	margin: 5px;
 	height: 30px;
 	width: 80px;
@@ -145,11 +129,6 @@ aside {
 	flex: 0 1 auto;
 	text-overflow: wrap;
 	height: 10%;
-}
-
-.subject_items {
-	font-family: 'Oswald', sans-serif;
-	flex: 0 1 auto;
 }
 
 .body-div p {
