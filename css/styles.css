@@ -1,9 +1,5 @@
 body {
-	background-color: white;
 	display: flex;
-	justify-content: space-between;
-	align-items: stretch;
-	flex-direction: row;
 	flex-wrap: wrap;
 }
 
@@ -28,6 +24,29 @@ header {
 
 #note_taker:hover {
 	background-color: #A9E1B7;
+}
+
+#note_title {
+	width: 95%;
+	text-align: left;
+}
+
+#subject_title {
+	text-align: center;
+}
+
+#subject_title, #note_title {
+	flex: 0 1 auto;
+	font-family: 'Oswald', sans-serif;
+	text-overflow: wrap;
+	font-size: 18px;
+	color: #838383;
+	border-bottom: solid 1px #838383;
+	padding-bottom: 20px;
+}
+
+#note-title {
+	font-family: 'Oswald', sans-serif;
 }
 
 #note_taker, #quiz_taker {
@@ -73,16 +92,38 @@ aside {
 
 .body-div {
 	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	justify-content: space-between;
+	flex-direction: row;
+	align-items: center;
 	margin: 5px 20px 5px 5px;
 	background-color: #EDEDED;
 	height: 30%;
-	width: 85%;
+	width: 95%;
 	margin-top: 2%;
 	font-family: 'Oswald', sans-serif;
 	text-align: left;
+}
+
+.body-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	flex: 1 1 0px;
+}
+
+.body-heads, .body-items {
+	flex: 1 1 0px;
+	padding: 5px;
+	font-family: 'Oswald', sans-serif;
+	margin-left: 15px;
+}
+
+.body-heads {
+	align-self: flex-start;
+}
+
+.body-items {
+	justify-content: space-between;
+	font-size: 13px;
 }
 
 .body-div form {
@@ -95,30 +136,15 @@ aside {
 	height: 33%;
 	margin: 3px;
 	background-color: #838383;
+	padding: 10px 20px 10px 15px;
+	color: white;
+	font-size: 11px;
+	font-family: 'Oswald', sans-serif;
 }
 
 .note-items:hover {
 	background-color: #A9E1B7; /*green*/
 	color: white;
-}
-
-#note_title {
-	width: 95%;
-	text-align: left;
-}
-
-#subject_title {
-	text-align: center;
-}
-
-#subject_title, #note_title {
-	flex: 0 1 auto;
-	font-family: 'Oswald', sans-serif;
-	text-overflow: wrap;
-	font-size: 18px;
-	color: #838383;
-	border-bottom: solid 1px #838383;
-	padding-bottom: 20px;
 }
 
 .subject_items {
@@ -127,14 +153,6 @@ aside {
 	text-overflow: wrap;
 	height: 10%;
 	padding: 10%;
-}
-
-.body-div p {
-	font-family: 'Oswald', sans-serif;
-}
-
-#note-title {
-	font-family: 'Oswald', sans-serif;
 }
 
 .submit {
