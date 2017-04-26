@@ -44,13 +44,18 @@ function editNotes(){
 
 	*/
 	var notes = document.getElementsByClassName("edit-notes");
-    var noteContainer = document.getElementsByClassName("body-div");
-    console.log();
     for (var i = 0; i < notes.length; i++){
+    	var noteContainer = document.getElementsByClassName("body-div");
     	var formNode = document.createElement("form");
+    	var inputNode = document.createElement("input");
+    	formNode.appendChild(inputNode);
    		var ncChildren = noteContainer[i].childNodes[1];
    		notes[i].addEventListener("click", function edit(){
-      	noteContainer[i].replaceChild(formNode, ncChildren);
+   		var noteContainer = document.getElementsByClassName("body-div");
+   		var formNode = document.createElement("form");
+    	var inputNode = document.createElement("input");
+      	noteContainer[i].removeChild(noteContainer[i].childNodes[1]);
+      	noteContainer[i].insertBefore(formNode, noteContainer[i].firstChild)
       });
     }
 }
@@ -61,12 +66,12 @@ document.querySelectorAll(".delete").onclick = function deleteNotes(){
 	/*
 	placeholder code
 
-	var removing = document.getElementsByClassName("delete");
+	var objectRemove = document.getElementsByClassName("delete");
 	
 	
 	Everytime the delete button is clicked, the specific class number, for example, removing[0], will be pushed to a variable then the code below will execute
 
-	removing.remove();
+	objectRemove.remove();
 
 	*/
 }
