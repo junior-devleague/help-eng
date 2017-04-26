@@ -128,7 +128,7 @@ aside {
 }
 
 .subject_items, .test_items {
-	font-family: 'Ariel', sans-serif;
+	font-family: 'Arial', sans-serif;
 	flex: 0 1 auto;
 	text-overflow: wrap;
 	height: 10%;
@@ -167,4 +167,30 @@ aside {
 
 .test_items:hover {
 	background-color: #A9E1B7;
+}
+
+#make_quiz {
+	background-color: #838383;
+	height: 30px;
+	width: 170px;
+	font-family: 'Arial', sans-serif;
+	border-style: none;
+}
+
+a{
+	font-family: 'Arial', sans-serif;
+	font-size: 12px;
+}
+
+a:link {
+	text-decoration: none;
+	color: white;
+}
+
+a:visited {
+	color: white;
+}
+
+.test_head {
+	display: inline-flex;
 }
