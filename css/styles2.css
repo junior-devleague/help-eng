@@ -1,5 +1,8 @@
 body {
+	background-color: white;
 	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
 	flex-wrap: wrap;
 }
 
@@ -26,30 +29,7 @@ header {
 	background-color: #A9E1B7;
 }
 
-#note_title {
-	width: 95%;
-	text-align: left;
-}
-
-#subject_title {
-	text-align: center;
-}
-
-#subject_title, #note_title {
-	flex: 0 1 auto;
-	font-family: 'Oswald', sans-serif;
-	text-overflow: wrap;
-	font-size: 18px;
-	color: #838383;
-	border-bottom: solid 1px #838383;
-	padding-bottom: 20px;
-}
-
-#note-title {
-	font-family: 'Oswald', sans-serif;
-}
-
-#note_taker, #test_taker {
+#test_taker {
 	flex: 0 1 auto;
 	margin: 5px;
 	height: 30px;
@@ -76,8 +56,9 @@ aside {
 	display: flex;
 	flex: 0.25 1 0px;
 	flex-direction: column;
+	align-items: stretch;
+	margin-top: 2%;
 	padding: 50px;
-	padding-bottom: 32.1em;
 	border-right: solid 1px #838383;
 }
 
@@ -87,44 +68,32 @@ aside {
 	flex-direction: column;
 	align-items: flex-end;
 	width: 80%;
-	height: 32.250em;
-	padding-top: 50px;
+	height: 500px;
+	margin-top: 2%;
+}
+
+#note_title {
+	font-family: 'Oswald', sans-serif;
+	flex: 0 1 auto;
+	flex-direction: row;
+	justify-content: flex-start;
+	padding-bottom: 15px;
+	height: 5%;
+	width: 85%;
+	border-bottom: solid 1px #838383; 
 }
 
 .body-div {
 	display: flex;
-	flex-direction: row;
-	align-items: center;
+	flex-direction: column;
+	align-items: flex-end;
+	justify-content: space-between;
 	margin: 5px 20px 5px 5px;
 	background-color: #EDEDED;
 	height: 30%;
-	width: 95%;
-	margin-top: 2%;
+	width: 85%;
 	font-family: 'Oswald', sans-serif;
 	text-align: left;
-}
-
-.body-container {
-	display: flex;
-	flex-direction: column;
-	align-items: flex-end;
-	flex: 1 1 0px;
-}
-
-.body-heads, .body-items {
-	flex: 1 1 0px;
-	padding: 5px;
-	font-family: 'Oswald', sans-serif;
-	margin-left: 15px;
-}
-
-.body-heads {
-	align-self: flex-start;
-}
-
-.body-items {
-	justify-content: space-between;
-	font-size: 13px;
 }
 
 .body-div form {
@@ -137,10 +106,9 @@ aside {
 	height: 30px;
 	margin: 3px;
 	background-color: #838383;
-	padding: 10px 20px 10px 15px;
-	color: white;
-	font-size: 11px;
-	font-family: 'Oswald', sans-serif;
+	padding-left: 20px;
+	padding-top: 	5px;
+	color: 	white;
 }
 
 .note-items:hover {
@@ -148,23 +116,16 @@ aside {
 	color: white;
 }
 
-#note_title {
-	width: 95%;
-	text-align: left;
-}
-
 #subject_title {
-	text-align: center;
-}
-
-#subject_title, #note_title {
 	flex: 0 1 auto;
 	font-family: 'Oswald', sans-serif;
 	text-overflow: wrap;
+	text-align: center;
 	font-size: 18px;
 	color: #838383;
 	border-bottom: solid 1px #838383;
-	padding-bottom: 20px;
+	height: 15%;
+	margin-bottom: 5%;
 }
 
 .subject_items, .test_items {
@@ -174,6 +135,15 @@ aside {
 	height: 10%;
 	text-align: center;	
 	padding-top: 20px;
+
+}
+
+.body-div p {
+	font-family: 'Oswald', sans-serif;
+}
+
+#note-title {
+	font-family: 'Oswald', sans-serif;
 }
 
 .submit {
