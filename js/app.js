@@ -33,7 +33,8 @@ function note_Taker(){
 var storeEdit_Notes = [document.getElementsByClassName("edit-notes")[0],
 document.getElementsByClassName("edit-notes")[1],
 document.getElementsByClassName("edit-notes")[2]];
-
+var notes = document.getElementsByClassName("edit-notes");
+var noteContainer = document.getElementsByClassName("body-div");
 
 function editNotes(){
 	/*
@@ -43,12 +44,18 @@ function editNotes(){
 
 	*/
 	var notes = document.getElementsByClassName("edit-notes");
-	for (var i = 0; i < notes.length; i++){
-		notes[i].addEventListener("click"), function edit(){
-			
-		}
-	}
+    var noteContainer = document.getElementsByClassName("body-div");
+    console.log();
+    for (var i = 0; i < notes.length; i++){
+    	var formNode = document.createElement("form");
+   		var ncChildren = noteContainer[i].childNodes[1];
+   		notes[i].addEventListener("click", function edit(){
+      	noteContainer[i].replaceChild(formNode, ncChildren);
+      });
+    }
 }
+
+editNotes();
 
 document.querySelectorAll(".delete").onclick = function deleteNotes(){
 	/*
