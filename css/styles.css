@@ -52,41 +52,33 @@ header {
 
 #note_title {
 	display: flex;
-	flex: 
+	flex: 0 1 auto;
+	justify-content: space-between; 
 	width: 95%;
 	text-align: left;
 	font-family: 'Oswald', sans-serif;
-}
-
-#subject_title {
-	text-align: center;
-}
-
-#subject_title, #note_title {
-	flex: 0 1 auto;
-	font-family: 'Oswald', sans-serif;
-	text-overflow: wrap;
 	font-size: 18px;
 	color: #838383;
 	border-bottom: solid 1px #838383;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 }
 
 aside {
 	display: flex;
 	flex: 0.25 1 0px;
 	flex-direction: column;
-	padding: 50px;
-	padding-bottom: 32.1em;
+	padding: 50px 50px 32.1em 50px;
 	border-right: solid 1px #838383;
 }
 
 #take-quiz {
-	height: 70px;
-	width: 100px;
+	flex: 0 0 auto;
 	background-color: #A9E1B7;
 	color: white;
-	padding: 10px;
+	text-align: center;
+	padding: 10px 38px 35px 38px;
+	font-variant-caps: small-caps;
+	text-decoration-line: none;
 }
 
 .container {
@@ -154,16 +146,11 @@ aside {
 	color: white;
 }
 
-#note_title {
-	width: 95%;
-	text-align: left;
-}
-
 #subject_title {
 	text-align: center;
 }
 
-#subject_title, #note_title {
+#subject_title {
 	flex: 0 1 auto;
 	font-family: 'Oswald', sans-serif;
 	text-overflow: wrap;
