@@ -181,18 +181,42 @@ aside {
 	border-style: none;
 }
 
-a{
-	font-family: 'Arial', sans-serif;
-	font-size: 12px;
+.note_taker {
+	flex: 2 0 0px;
+	color: white;
+	text-decoration-line: none;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 18px;
+	padding: 10px;
+	word-wrap: none;
 }
 
-a:link {
-	text-decoration: none;
-	color: white;
+.note_taker:hover {
+	background-color: #A9E1B7;
 }
 
-a:visited {
+.test_taker {
+	flex: 2 0 0px;
 	color: white;
+	text-decoration-line: none;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 18px;
+	padding: 10px;
+	word-wrap: none;	
+}
+
+#review {
+	flex: 0 0 auto;
+	background-color: #A9E1B7;
+	color: white;
+	text-align: center;
+	padding: 10px 38px 35px 38px;
+	font-variant-caps: small-caps;
+	text-decoration-line: none;
 }
 
 .test_title {
@@ -205,6 +229,6 @@ a:visited {
 	font-size: 18px;
 	color: #838383;
 	border-bottom: solid 1px #838383;
-	padding-bottom: 87px;
+	padding-bottom: 50px;
 }
 
