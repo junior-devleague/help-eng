@@ -141,6 +141,10 @@ aside {
 	font-family: 'Oswald', sans-serif;
 }
 
+.options:hover {
+	background-color: #A9E1B7;
+}
+
 .note-items:hover {
 	background-color: #A9E1B7; /*green*/
 	color: white;
@@ -166,7 +170,8 @@ aside {
 	text-overflow: wrap;
 	height: 10%;
 	text-align: center;	
-	padding-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
 
 .submit {
