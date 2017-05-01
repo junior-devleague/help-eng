@@ -195,6 +195,16 @@ a:visited {
 	color: white;
 }
 
-.test_head {
-	display: inline-flex;
+.test_title {
+	display: flex;
+	flex: 0 1 auto;
+	justify-content: space-between; 
+	width: 95%;
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #838383;
+	border-bottom: solid 1px #838383;
+	padding-bottom: 87px;
 }
+
