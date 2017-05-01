@@ -1,8 +1,5 @@
 body {
-	background-color: white;
 	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
 	flex-wrap: wrap;
 }
 
@@ -17,26 +14,33 @@ header {
 	margin: -10px;
 }
 
-#note_taker {
-	flex: 0 1 auto;
-	margin: 5px;
-	width: 80px;
-	height: 30px;
+.note_taker {
+	flex: 2 0 0px;
 	color: white;
+
+	text-decoration-line: none;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 18px;
+	padding: 10px;
+	word-wrap: none;
 }
 
-#note_taker:hover {
+.test_taker {
+	flex: 2 0 0px;
+	color: white;
+	text-decoration-line: none;
 	background-color: #A9E1B7;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 18px;
+	padding: 10px;
+	word-wrap: none;	
 }
 
-#test_taker {
-	flex: 0 1 auto;
-	margin: 5px;
-	height: 30px;
-	width: 80px;
-}
-
-#test_taker:hover {
+.note_taker:hover {
 	background-color: #A9E1B7;
 }
 
