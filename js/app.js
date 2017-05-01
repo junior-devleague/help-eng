@@ -35,10 +35,22 @@ function editNotes(){
 	
 	var notes = document.getElementsByClassName("edit-notes");
     var noteContainer = document.getElementsByClassName("body-div");
-    console.log();
+    var inputNode = document.createElement("input");
     for (var i = 0; i < notes.length; i++){
    		notes[i].addEventListener("click", function edit(){
-      	console.log(this.parentNode.parentNode.childNodes[3]);
+   	var clicks = 0;
+   	clicks++;
+  	var text = this.parentNode.parentNode.childNodes[1];
+  	console.log(text.childNodes[3]);
+  	inputNode.value = text.childNodes[3].innerText;
+  	text.replaceChild(inputNode, text.childNodes[3])  	
+  	this.innerText = "SAVE CHANGES";
+  	if(clicks == 2){
+  		this.innerText = "EDIT NOTES";
+  		clicks = 0;
+  	}
+  	var p = document.createElement("p");
+  	p.innerText = text.childNodes[3].value;
        });
      }
  }
