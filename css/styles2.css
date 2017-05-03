@@ -59,9 +59,7 @@ aside {
 	display: flex;
 	flex: 0.25 1 0px;
 	flex-direction: column;
-	align-items: stretch;
-	margin-top: 2%;
-	padding: 50px;
+	padding: 50px 50px 32.1em 50px;
 	border-right: solid 1px #838383;
 }
 
@@ -71,8 +69,8 @@ aside {
 	flex-direction: column;
 	align-items: flex-end;
 	width: 80%;
-	height: 500px;
-	margin-top: 2%;
+	height: 32.250em;
+	padding-top: 50px;
 }
 
 #note_title {
@@ -88,13 +86,13 @@ aside {
 
 .body-div {
 	display: flex;
+	flex: 0.95 0 35%;
 	flex-direction: column;
-	align-items: flex-end;
-	justify-content: space-between;
+	align-items: space-between;
 	margin: 5px 20px 5px 5px;
 	background-color: #EDEDED;
-	height: 30%;
-	width: 85%;
+	width: 95%;
+	margin-top: 2%;
 	font-family: 'Oswald', sans-serif;
 	text-align: left;
 }
@@ -128,7 +126,7 @@ aside {
 	color: #838383;
 	border-bottom: solid 1px #838383;
 	height: 15%;
-	margin-bottom: 5%;
+	padding-bottom: 20px;
 }
 
 .subject_items, .test_items {
@@ -136,9 +134,10 @@ aside {
 	flex: 0 1 auto;
 	text-overflow: wrap;
 	height: 10%;
-	text-align: center;	
+	text-align: left;	
+	padding-left: 5px;
 	padding-top: 20px;
-
+	padding-bottom: 20px;
 }
 
 .body-div p {
@@ -166,11 +165,13 @@ aside {
 }
 
 .subject_items:hover {
-	background-color: #A9E1B7;	
+	background-color: #A9E1B7;
+	color: white;
 }
 
 .test_items:hover {
 	background-color: #A9E1B7;
+	color: white;	
 }
 
 #make_quiz {
@@ -229,6 +230,17 @@ aside {
 	font-size: 18px;
 	color: #838383;
 	border-bottom: solid 1px #838383;
-	padding-bottom: 50px;
+	padding-bottom: 47px;
 }
 
+.correct {
+	flex: 0 1 auto;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #838383;
+	padding: 10px;
+}
+
+#score {
+	color: #A9E1B7;
+}
