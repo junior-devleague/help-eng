@@ -42,8 +42,11 @@ function editNotes(){
 				};
 			var text = this.parentNode.parentNode.childNodes[1];
 			textNode.innerText = text.childNodes[3].innerText;
+			console.log(textNode.innerText);
+			console.log(text.c)
 			text.replaceChild(textNode, text.childNodes[3]); 	
-			p.innerText = text.childNodes[3].innerText;
+			p.innerText = text.childNodes[3].value;
+			console.log(text.childNodes[3]);
 			if(this.innerText == "SAVE CHANGES"){
 				this.innerText = "EDIT NOTES";
 				text.replaceChild(p, text.childNodes[3])
