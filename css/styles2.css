@@ -1,8 +1,5 @@
 body {
-	background-color: white;
 	display: flex;
-	justify-content: space-between;
-	flex-direction: row;
 	flex-wrap: wrap;
 }
 
@@ -17,26 +14,33 @@ header {
 	margin: -10px;
 }
 
-#note_taker {
-	flex: 0 1 auto;
-	margin: 5px;
-	width: 80px;
-	height: 30px;
+.note_taker {
+	flex: 2 0 0px;
 	color: white;
+
+	text-decoration-line: none;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 18px;
+	padding: 10px;
+	word-wrap: none;
 }
 
-#note_taker:hover {
+.test_taker {
+	flex: 2 0 0px;
+	color: white;
+	text-decoration-line: none;
 	background-color: #A9E1B7;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 18px;
+	padding: 10px;
+	word-wrap: none;	
 }
 
-#test_taker {
-	flex: 0 1 auto;
-	margin: 5px;
-	height: 30px;
-	width: 80px;
-}
-
-#test_taker:hover {
+.note_taker:hover {
 	background-color: #A9E1B7;
 }
 
@@ -177,20 +181,54 @@ aside {
 	border-style: none;
 }
 
-a{
-	font-family: 'Arial', sans-serif;
-	font-size: 12px;
-}
-
-a:link {
-	text-decoration: none;
+.note_taker {
+	flex: 2 0 0px;
 	color: white;
+	text-decoration-line: none;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 18px;
+	padding: 10px;
+	word-wrap: none;
 }
 
-a:visited {
+.note_taker:hover {
+	background-color: #A9E1B7;
+}
+
+.test_taker {
+	flex: 2 0 0px;
 	color: white;
+	text-decoration-line: none;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-variant: small-caps;
+	font-size: 18px;
+	padding: 10px;
+	word-wrap: none;	
 }
 
-.test_head {
-	display: inline-flex;
+#review {
+	flex: 0 0 auto;
+	background-color: #A9E1B7;
+	color: white;
+	text-align: center;
+	padding: 10px 38px 35px 38px;
+	font-variant-caps: small-caps;
+	text-decoration-line: none;
 }
+
+.test_title {
+	display: flex;
+	flex: 0 1 auto;
+	justify-content: space-between; 
+	width: 95%;
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+	font-size: 18px;
+	color: #838383;
+	border-bottom: solid 1px #838383;
+	padding-bottom: 50px;
+}
+
