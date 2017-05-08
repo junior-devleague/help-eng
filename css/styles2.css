@@ -17,7 +17,6 @@ header {
 .note_taker {
 	flex: 2 0 0px;
 	color: white;
-
 	text-decoration-line: none;
 	font-family: 'Oswald', sans-serif;
 	text-align: center;
@@ -101,6 +100,14 @@ aside {
 	padding: 50px;
 }
 
+.questions {
+	flex: 1 1 auto;
+	font-family: 'Oswald', sans-serif;
+	color: #838383;
+	padding-top: 40px;
+	text-align: center;
+}
+
 .options {
 	flex: 1 1 0px;
 	width: 150px;
@@ -144,15 +151,20 @@ aside {
 	font-family: 'Oswald', sans-serif;
 }
 
-#note-title {
-	font-family: 'Oswald', sans-serif;
-}
-
 .submit {
-	height: 40px;
-	width: 120px;
+	flex: 0.5 1 auto;
+	color: white;
+	font-family: 'Oswald', sans-serif;
+	font-variant: small-caps;
+	font-size: 18px;
 	background-color: #838383;
 	border-style: none;
+}
+
+form {
+	display: flex;
+	flex: 10 0 0px;
+	margin-top: -30px;
 }
 
 .submit:hover {
@@ -160,8 +172,7 @@ aside {
 }
 
 .answer {
-	height: 35px;
-	width: 525px;
+	flex: 2 1 auto;
 }
 
 .subject_items:hover {
