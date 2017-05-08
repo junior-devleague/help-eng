@@ -31,30 +31,31 @@ function note_Taker(){
 }
 
 
-function editNotes(){
-	var notes = document.getElementsByClassName("edit-notes");
-	var noteContainer = document.getElementsByClassName("body-div");
-	for (var i = 0; i < notes.length; i++){
-		notes[i].addEventListener("click", function edit(){
-			for(var i = 0; i < notes.length; i++){
-				var textNode = document.createElement("TEXTAREA");
-				var p = document.createElement("p");
-				};
-			var text = this.parentNode.parentNode.childNodes[1];
-			textNode.innerText = text.childNodes[3].innerText;
-			console.log(textNode.innerText);
-			console.log(text.c)
-			text.replaceChild(textNode, text.childNodes[3]); 	
-			p.innerText = text.childNodes[3].value;
-			console.log(text.childNodes[3]);
-			if(this.innerText == "SAVE CHANGES"){
-				this.innerText = "EDIT NOTES";
-				text.replaceChild(p, text.childNodes[3])
-				};
-			this.innerText = "SAVE CHANGES";
-			});
-		}
-	}
+function editNotes() {
+    var notes = document.getElementsByClassName("edit-notes");
+    var noteContainer = document.getElementsByClassName("body-div");
+    for (var i = 0; i < notes.length; i++) {
+        notes[i].addEventListener("click", function edit() {
+        	for (var i = 0; i < notes.length; i++) {
+                var textNode = document.createElement("TEXTAREA");
+                textNode.setAttribute("class", "body-items");
+                textNode.setAttribute("rows", "5");
+                textNode.setAttribute("cols", "95");
+            };
+            var text = this.parentNode.parentNode.childNodes[1];
+            textNode.innerText = text.childNodes[3].innerHTML;
+            if (this.innerText == "SAVE CHANGES") {
+          		text.childNodes[3].style.background = "none";
+                text.childNodes[3].style.border = "none";
+                text.childNodes[3].disabled = "disabled";
+                this.innerText = "EDIT NOTES";
+            } else {
+            	this.innerText = "SAVE CHANGES";
+                text.replaceChild(textNode, text.childNodes[3]);
+            };
+        });
+    }
+}
 editNotes();
 
 document.querySelectorAll(".delete").onclick = function deleteNotes(){
