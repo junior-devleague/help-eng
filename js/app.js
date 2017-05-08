@@ -31,29 +31,31 @@ function note_Taker(){
 }
 
 
-function editNotes(){
-	
-	var notes = document.getElementsByClassName("edit-notes");
+function editNotes() {
+    var notes = document.getElementsByClassName("edit-notes");
     var noteContainer = document.getElementsByClassName("body-div");
-    var inputNode = document.createElement("input");
-    for (var i = 0; i < notes.length; i++){
-   		notes[i].addEventListener("click", function edit(){
-   	var clicks = 0;
-   	clicks++;
-  	var text = this.parentNode.parentNode.childNodes[1];
-  	console.log(text.childNodes[3]);
-  	inputNode.value = text.childNodes[3].innerText;
-  	text.replaceChild(inputNode, text.childNodes[3])  	
-  	this.innerText = "SAVE CHANGES";
-  	if(clicks == 2){
-  		this.innerText = "EDIT NOTES";
-  		clicks = 0;
-  	}
-  	var p = document.createElement("p");
-  	p.innerText = text.childNodes[3].value;
-       });
-     }
- }
+    for (var i = 0; i < notes.length; i++) {
+        notes[i].addEventListener("click", function edit() {
+        	for (var i = 0; i < notes.length; i++) {
+                var textNode = document.createElement("TEXTAREA");
+                textNode.setAttribute("class", "body-items");
+                textNode.setAttribute("rows", "5");
+                textNode.setAttribute("cols", "95");
+            };
+            var text = this.parentNode.parentNode.childNodes[1];
+            textNode.innerText = text.childNodes[3].innerHTML;
+            if (this.innerText == "SAVE CHANGES") {
+          		text.childNodes[3].style.background = "none";
+                text.childNodes[3].style.border = "none";
+                text.childNodes[3].disabled = "disabled";
+                this.innerText = "EDIT NOTES";
+            } else {
+            	this.innerText = "SAVE CHANGES";
+                text.replaceChild(textNode, text.childNodes[3]);
+            };
+        });
+    }
+}
 editNotes();
 
 document.querySelectorAll(".delete").onclick = function deleteNotes(){
