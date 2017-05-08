@@ -14,6 +14,11 @@ header {
 	margin: -10px;
 }
 
+textarea {
+	font-family: 'Oswald', sans-serif;
+	resize: none;
+}
+
 .note_taker {
 	flex: 2 0 0px;
 	color: white;
