@@ -208,3 +208,9 @@ aside {
 	background-color: #A9E1B7;
 }
 
+textarea {
+	height: 100px;
+	width: 700px;
+	background: none;
+	border: none;
+}
