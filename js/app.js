@@ -41,9 +41,13 @@ function editNotes() {
                 textNode.setAttribute("class", "body-items");
                 textNode.setAttribute("rows", "5");
                 textNode.setAttribute("cols", "63");
+                var text = this.parentNode.parentNode.childNodes[1];
+                if (text.childNodes[3].nodeName === "p") {
+            	textNode.innerText = text.childNodes[3].innerHTML;
+            	} else {
+            	textNode.innerText = text.childNodes[3].value;
+            	};
             };
-            var text = this.parentNode.parentNode.childNodes[1];
-            textNode.innerText = text.childNodes[3].innerHTML;
             if (this.innerText == "SAVE CHANGES") {
             	textNode.innerText = text.childNodes[3].value;
           		text.childNodes[3].style.background = "none";
