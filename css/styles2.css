@@ -58,7 +58,7 @@ aside {
 	display: flex;
 	flex: 0.25 1 0px;
 	flex-direction: column;
-	padding: 50px 50px 32.1em 50px;
+	padding: 50px 50px 27.5em 50px;
 	border-right: solid 1px #838383;
 }
 
@@ -229,6 +229,7 @@ form {
 	padding: 10px 38px 35px 38px;
 	font-variant-caps: small-caps;
 	text-decoration-line: none;
+	margin-top: -7px;
 }
 
 .test_title {
@@ -250,6 +251,7 @@ form {
 	font-size: 18px;
 	color: #838383;
 	padding: 10px;
+	margin-bottom: -15px;
 }
 
 #score {
