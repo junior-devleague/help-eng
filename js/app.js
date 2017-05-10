@@ -40,11 +40,12 @@ function editNotes() {
                 var textNode = document.createElement("TEXTAREA");
                 textNode.setAttribute("class", "body-items");
                 textNode.setAttribute("rows", "5");
-                textNode.setAttribute("cols", "95");
+                textNode.setAttribute("cols", "63");
             };
             var text = this.parentNode.parentNode.childNodes[1];
             textNode.innerText = text.childNodes[3].innerHTML;
             if (this.innerText == "SAVE CHANGES") {
+            	textNode.innerText = text.childNodes[3].value;
           		text.childNodes[3].style.background = "none";
                 text.childNodes[3].style.border = "none";
                 text.childNodes[3].disabled = "disabled";
@@ -53,23 +54,14 @@ function editNotes() {
             	this.innerText = "SAVE CHANGES";
                 text.replaceChild(textNode, text.childNodes[3]);
             };
+            console.log(text.childNodes[3].nodeName);
         });
     }
 }
 editNotes();
 
-document.querySelectorAll(".delete").onclick = function deleteNotes(){
-	/*
-	placeholder code
+function deleteNotes(){
 
-	var objectRemove = document.getElementsByClassName("delete");
-	
-	
-	Everytime the delete button is clicked, the specific class number, for example, removing[0], will be pushed to a variable then the code below will execute
-
-	objectRemove.remove();
-
-	*/
 }
 
 var numCorrect = 0;
