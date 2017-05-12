@@ -89,3 +89,7 @@ document.querySelectorAll(".answer").onclick = function test_Taker(){
 
 	*/
 }
+
+function delete() {
+  document.getElementsByClassName('body-div').remove;
+}

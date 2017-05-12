@@ -76,7 +76,7 @@ aside {
 	display: flex;
 	flex: 0.25 1 0px;
 	flex-direction: column;
-	padding: 50px 50px 32.1em 50px;
+	padding: 50px 50px 27.5em 50px;
 	border-right: solid 1px #838383;
 }
 
@@ -85,9 +85,14 @@ aside {
 	background-color: #A9E1B7;
 	color: white;
 	text-align: left;
+	margin-top: -7px;
 	padding: 10px 38px 35px 38px;
 	font-variant-caps: small-caps;
 	text-decoration-line: none;
+}
+
+span {
+	text-align: center;
 }
 
 .container {
@@ -148,6 +153,8 @@ aside {
 	color: white;
 	font-size: 11px;
 	font-family: 'Oswald', sans-serif;
+	text-decoration-line: none;
+	cursor: pointer;
 }
 
 .options:hover {
@@ -160,10 +167,6 @@ aside {
 }
 
 #subject_title {
-	text-align: center;
-}
-
-#subject_title {
 	flex: 0 1 auto;
 	font-family: 'Oswald', sans-serif;
 	text-overflow: wrap;
@@ -171,6 +174,8 @@ aside {
 	color: #838383;
 	border-bottom: solid 1px #838383;
 	padding-bottom: 20px;
+	text-align: center;
+	font-variant: small-caps;
 }
 
 .subject_items, .test_items {
