@@ -30,46 +30,43 @@ function note_Taker(){
 
 }
 
-
 function editNotes() {
     var notes = document.getElementsByClassName("edit-notes");
     var noteContainer = document.getElementsByClassName("body-div");
     for (var i = 0; i < notes.length; i++) {
+        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].border = "none";
+        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].background = "none";
+        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].disabled = "disabled";
         notes[i].addEventListener("click", function edit() {
-        	for (var i = 0; i < notes.length; i++) {
-                var textNode = document.createElement("TEXTAREA");
-                textNode.setAttribute("class", "body-items");
-                textNode.setAttribute("rows", "5");
-                textNode.setAttribute("cols", "95");
-            };
             var text = this.parentNode.parentNode.childNodes[1];
-            textNode.innerText = text.childNodes[3].innerHTML;
-            if (this.innerText == "SAVE CHANGES") {
-          		text.childNodes[3].style.background = "none";
+            if (text.childNodes[3].disabled == true) {
+                text.childNodes[3].disabled = false;
+                text.childNodes[3].style.background = "white";
+                text.childNodes[3].style.border = "black solid 0.5px";
+                this.innerText = "SAVE CHANGES"
+            } else if (text.childNodes[3].disabled == false) {
+                text.childNodes[3].disabled = true;
+                text.childNodes[3].style.background = "none";
                 text.childNodes[3].style.border = "none";
-                text.childNodes[3].disabled = "disabled";
                 this.innerText = "EDIT NOTES";
-            } else {
-            	this.innerText = "SAVE CHANGES";
-                text.replaceChild(textNode, text.childNodes[3]);
             };
         });
-    }
+        /*var storedNotes = [];
+        for (var i = 0; i < notes.length; i++) {
+            storedNotes.push("");
+        }
+        function noteSaver() {
+        	var notes = document.getElementsByClassName("edit-notes");
+            storedNotes.push(localStorage.setItem("savedNotes", notes[i].parentNode.parentNode.childNodes[1].childNodes[3].value));
+        };
+        storedNotes.forEach(noteSaver);
+        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].value = localStorage.getItem("savedNotes");
+        console.log(localStorage.getItem("savedNotes"))*/
+    };
 }
 editNotes();
+function deleteNotes(){
 
-document.querySelectorAll(".delete").onclick = function deleteNotes(){
-	/*
-	placeholder code
-
-	var objectRemove = document.getElementsByClassName("delete");
-	
-	
-	Everytime the delete button is clicked, the specific class number, for example, removing[0], will be pushed to a variable then the code below will execute
-
-	objectRemove.remove();
-
-	*/
 }
 
 var numCorrect = 0;
