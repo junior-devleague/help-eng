@@ -34,9 +34,11 @@ function editNotes() {
     var notes = document.getElementsByClassName("edit-notes");
     var noteContainer = document.getElementsByClassName("body-div");
     for (var i = 0; i < notes.length; i++) {
-        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].border = "none";
-        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].background = "none";
+        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].value = localStorage.getItem("savedNotes" + i);
+    };
+    for (var i = 0; i < notes.length; i++) {
         notes[i].parentNode.parentNode.childNodes[1].childNodes[3].disabled = "disabled";
+        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].setAttribute("class", i);
         notes[i].addEventListener("click", function edit() {
             var text = this.parentNode.parentNode.childNodes[1];
             if (text.childNodes[3].disabled == true) {
@@ -49,44 +51,22 @@ function editNotes() {
                 text.childNodes[3].style.background = "none";
                 text.childNodes[3].style.border = "none";
                 this.innerText = "EDIT NOTES";
+                localStorage.setItem("savedNotes" + text.childNodes[3].getAttribute("class"), text.childNodes[3].value);
             };
         });
-        /*var storedNotes = [];
-        for (var i = 0; i < notes.length; i++) {
-            storedNotes.push("");
-        }
-        function noteSaver() {
-        	var notes = document.getElementsByClassName("edit-notes");
-            storedNotes.push(localStorage.setItem("savedNotes", notes[i].parentNode.parentNode.childNodes[1].childNodes[3].value));
-        };
-        storedNotes.forEach(noteSaver);
-        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].value = localStorage.getItem("savedNotes");
-        console.log(localStorage.getItem("savedNotes"))*/
     };
-}
+};
+
 editNotes();
+
 function deleteNotes(){
+    var deleter = document.getElementsByClassName("delete");
+    for (i = 0; i < deleter.length; i++){
+        deleter[i].addEventListener("click", function deleting(){
+            var container = this.parentNode.parentNode;
+            container.remove();
+        })
+    };
+};
 
-}
-
-var numCorrect = 0;
-
-document.querySelectorAll(".answer").onclick = function test_Taker(){
-	/*
-	placeholder code
-	var clicks = true;
-	if (clicks == true){
-		parentdiv.replaceChild(child, p-element)
-	}
-
-
-	if (input.innerText == testTaker[0].answer){
-	numCorrect++
-	}
-
-	*/
-}
-
-function delete() {
-  document.getElementsByClassName('body-div').remove;
-}
+deleteNotes();
