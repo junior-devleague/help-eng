@@ -17,8 +17,8 @@ header {
 textarea {
 	font-family: 'Oswald', sans-serif;
 	resize: none;
-	height: 100px;
-	width: 700px;
+	height: 80px;
+	width: 100%;
 	background: none;
 	border: none;
 }
@@ -179,7 +179,6 @@ span {
 	border-bottom: solid 1px #838383;
 	padding-bottom: 20px;
 	text-align: center;
-	font-variant: small-caps;
 }
 
 .subject_items, .test_items {
@@ -191,6 +190,7 @@ span {
 	padding-left: 5px;
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin: 0px -50px 0px -50px;
 }
 
 .submit {
@@ -210,7 +210,8 @@ span {
 }
 
 .subject_items:hover {
-	background-color: #A9E1B7;	
+	background-color: #A9E1B7;
+	color: white;	
 }
 
 .test_items:hover {
