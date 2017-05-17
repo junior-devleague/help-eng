@@ -1,43 +1,36 @@
-/*var testTaker = [
+var testTaker = [
 	{
-		question : "What is " + subject,
-		answer : "The answer"
+		question : "What is the hawaiian name of the Kamehameha butterfly?",
+		answer : "Puelehua"
 	},
 	{
-		question : "Who was related to the " + subject,
-		answer : "The answer"
+		question : "Who was usually in control Kohala?",
+		answer : "Ali'i Nui"
 	},
 	{
-		question : "Why did " + subject + " happen?",
-		answer : "The answer"
+		question : "When was the Hawaiian Islands united?",
+		answer : "1810"
 	}
-]
-
-var noteTaker = [
-	{
-		title : notes_subject,
-		text : notes
-	}
-]*/
-
-function note_Taker(){
-	var div = document.createElement("DIV");
-	/*
-	There will be a button that's named "Add Notes",
-	when clicked, will make another div with the same class as the other notes. But, it will appear as an input with the "Done" button replacing the edit-notes button. When "Done" is clicked, the input text will be saved into a variable and be used as the inner text of the p element that will replace the input element
-	
-	*/
-
-}
+];
 
 function editNotes() {
     var notes = document.getElementsByClassName("edit-notes");
+    for (var i = 0; i < notes.length; i++) {
+        if (notes[i].parentNode.parentNode.childNodes[1].childNodes[3].value !== localStorage.getItem("savedNotes" + i)){
+            notes[i].parentNode.parentNode.childNodes[1].childNodes[3].value = localStorage.getItem("savedNotes" + i);
+            }
+        };
     var noteContainer = document.getElementsByClassName("body-div");
     for (var i = 0; i < notes.length; i++) {
+<<<<<<< HEAD
         localStorage.setItem("savedNotes" + i, notes[i].parentNode.parentNode.childNodes[1].childNodes[3].innerText);
     	};
+=======
+        localStorage.setItem("savedNotes" + i, notes[i].parentNode.parentNode.childNodes[1].childNodes[3].value);
+    };
+>>>>>>> 77d394018a5daa88688aacc6db1b02b688ec88b5
     for (var i = 0; i < notes.length; i++) {
-        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].disabled = "disabled";
+        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].disabled = true;
         notes[i].parentNode.parentNode.childNodes[1].childNodes[3].setAttribute("class", i);
         notes[i].addEventListener("click", function edit() {
             var text = this.parentNode.parentNode.childNodes[1];
@@ -46,7 +39,7 @@ function editNotes() {
                 text.childNodes[3].disabled = false;
                 text.childNodes[3].style.background = "white";
                 text.childNodes[3].style.border = "black solid 0.5px";
-                this.innerText = "SAVE CHANGES"
+                this.innerText = "SAVE CHANGES";
             } else if (text.childNodes[3].disabled == false) {
                 text.childNodes[3].disabled = true;
                 text.childNodes[3].style.background = "none";
@@ -76,3 +69,22 @@ function deleteNotes(){
 };
 
 deleteNotes();
+
+function testSet() {
+var q = document.getElementsByClassName("questions");
+var s = document.getElementsByClassName("submit");
+var score = 0;
+for (var i = 0; i < q.length; i++) {
+    q[i].innerText = testTaker[i].question
+    s[i].classList.add(i);
+    s[i].onclick = function(){
+        if (this.parentNode.childNodes[1].value == testTaker[this.classList.item(1)].answer) {
+            score++;
+            document.getElementById("score").innerText = score;
+            this.parentNode.childNodes[1].disabled = true;
+            };
+        };
+    };
+};
+
+testSet();
