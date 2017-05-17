@@ -34,13 +34,14 @@ function editNotes() {
     var notes = document.getElementsByClassName("edit-notes");
     var noteContainer = document.getElementsByClassName("body-div");
     for (var i = 0; i < notes.length; i++) {
-        notes[i].parentNode.parentNode.childNodes[1].childNodes[3].value = localStorage.getItem("savedNotes" + i);
-    };
+        localStorage.setItem("savedNotes" + i, notes[i].parentNode.parentNode.childNodes[1].childNodes[3].innerText);
+    	};
     for (var i = 0; i < notes.length; i++) {
         notes[i].parentNode.parentNode.childNodes[1].childNodes[3].disabled = "disabled";
         notes[i].parentNode.parentNode.childNodes[1].childNodes[3].setAttribute("class", i);
         notes[i].addEventListener("click", function edit() {
             var text = this.parentNode.parentNode.childNodes[1];
+            console.log(text.childNodes[3].innerText);
             if (text.childNodes[3].disabled == true) {
                 text.childNodes[3].disabled = false;
                 text.childNodes[3].style.background = "white";
@@ -54,6 +55,11 @@ function editNotes() {
                 localStorage.setItem("savedNotes" + text.childNodes[3].getAttribute("class"), text.childNodes[3].value);
             };
         });
+    for (var i = 0; i < notes.length; i++) {
+    	if (notes[i].parentNode.parentNode.childNodes[1].childNodes[3].innerText !== localStorage.getItem("savedNotes" + i)) {
+    		notes[i].parentNode.parentNode.childNodes[1].childNodes[3].innerText = localStorage.getItem("savedNotes" + i)
+    		};
+    	};
     };
 };
 
