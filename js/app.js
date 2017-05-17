@@ -20,16 +20,6 @@ var noteTaker = [
 	}
 ]*/
 
-function note_Taker(){
-	var div = document.createElement("DIV");
-	/*
-	There will be a button that's named "Add Notes",
-	when clicked, will make another div with the same class as the other notes. But, it will appear as an input with the "Done" button replacing the edit-notes button. When "Done" is clicked, the input text will be saved into a variable and be used as the inner text of the p element that will replace the input element
-	
-	*/
-
-}
-
 function editNotes() {
     var notes = document.getElementsByClassName("edit-notes");
     var noteContainer = document.getElementsByClassName("body-div");
