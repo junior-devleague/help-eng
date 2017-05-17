@@ -1,6 +1,7 @@
 body {
 	display: flex;
 	flex-wrap: wrap;
+	margin: 0;
 }
 
 header {
@@ -11,7 +12,6 @@ header {
 	flex: 1 1 100%;
 	background-color: #838383;
 	height: 100px;
-	margin: -10px;
 }
 
 textarea {
@@ -73,15 +73,13 @@ textarea {
 	font-size: 18px;
 	color: #838383;
 	border-bottom: solid 1px #838383;
-	padding-bottom: 47px;
+	padding-bottom: 7px;
 }
 
 aside {
-	display: flex;
-	flex: 0.25 1 0px;
-	flex-direction: column;
-	padding: 50px 50px 27.5em 50px;
+	flex: 1 1 0px;
 	border-right: solid 1px #838383;
+	padding-top: 50px;
 }
 
 #take-quiz {
@@ -90,7 +88,7 @@ aside {
 	color: white;
 	text-align: left;
 	margin-top: -7px;
-	padding: 10px 38px 35px 38px;
+	padding: 10px 38px 11px 38px;
 	font-variant-caps: small-caps;
 	text-decoration-line: none;
 }
@@ -100,18 +98,15 @@ span {
 }
 
 .container {
-	display: flex;
-	flex: 2 2 0px;
-	flex-direction: column;
+	flex: 4 4 0px;
 	align-items: flex-end;
 	width: 80%;
-	height: 32.250em;
-	padding-top: 50px;
+	padding: 50px;
 }
 
 .body-div {
 	display: flex;
-	flex: 0.95 0 35%;
+	flex: 0 0 27%;
 	flex-direction: row;
 	align-items: center;
 	margin: 5px 20px 5px 5px;
@@ -179,18 +174,15 @@ span {
 	border-bottom: solid 1px #838383;
 	padding-bottom: 20px;
 	text-align: center;
+	margin: 0 10px;
 }
 
 .subject_items, .test_items {
 	font-family: 'Ariel', sans-serif;
 	flex: 0 1 auto;
 	text-overflow: wrap;
-	height: 10%;
 	text-align: left;	
-	padding-left: 5px;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	margin: 0px -50px 0px -50px;
+	padding: 20px 0 20px 30px;
 }
 
 .submit {
