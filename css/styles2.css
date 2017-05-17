@@ -169,6 +169,12 @@ form {
 
 .submit:hover {
 	background-color: #A9E1B7;
+	flex: 0.5 1 auto;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-variant: small-caps;
+    font-size: 18px;
+    border-style: none;
 }
 
 .answer {
