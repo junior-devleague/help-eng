@@ -58,6 +58,7 @@ aside {
 	flex: 0.5 1 0px;
 	border-right: solid 1px #838383;
 	padding-top: 50px;
+	padding-bottom: 450px;
 }
 .container {
 	display: flex;
