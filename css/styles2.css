@@ -57,6 +57,7 @@ header {
 aside {
 	flex: 1 1 0px;
 	border-right: solid 1px #838383;
+	height: 32.250em;
 	padding-top: 50px;
 }
 
