@@ -55,17 +55,21 @@ header {
 }
 
 aside {
-	flex: 1 1 0px;
+	display: flex;
+	flex: 0.25 1 0px;
+	flex-direction: column;
+	padding: 50px 50px 27.5em 50px;
 	border-right: solid 1px #838383;
-	height: 32.250em;
-	padding-top: 50px;
 }
 
 .container {
-	flex: 4 4 0px;
+	display: flex;
+	flex: 2 2 0px;
+	flex-direction: column;
 	align-items: flex-end;
 	width: 80%;
-	padding: 50px;
+	height: 32.250em;
+	padding-top: 50px;
 }
 
 #note_title {
@@ -124,20 +128,23 @@ aside {
 	flex: 0 1 auto;
 	font-family: 'Oswald', sans-serif;
 	text-overflow: wrap;
+	text-align: center;
 	font-size: 18px;
 	color: #838383;
 	border-bottom: solid 1px #838383;
+	height: 15%;
 	padding-bottom: 20px;
-	text-align: center;
-	margin: 0 10px;
 }
 
 .subject_items, .test_items {
-	font-family: 'Ariel', sans-serif;
+	font-family: 'Arial', sans-serif;
 	flex: 0 1 auto;
 	text-overflow: wrap;
+	height: 10%;
 	text-align: left;	
-	padding: 20px 0 20px 30px;
+	padding-left: 5px;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .body-div p {
