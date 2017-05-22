@@ -61,13 +61,10 @@ aside {
 }
 
 .container {
-	display: flex;
-	flex: 2 2 0px;
-	flex-direction: column;
+	flex: 4 4 0px;
 	align-items: flex-end;
 	width: 80%;
-	height: 32.250em;
-	padding-top: 50px;
+	padding: 50px;
 }
 
 #note_title {
