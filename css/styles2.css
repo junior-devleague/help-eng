@@ -55,13 +55,10 @@ header {
 }
 
 aside {
-	display: flex;
-	flex: 0.25 1 0px;
-	flex-direction: column;
-	padding: 50px 50px 27.5em 50px;
+	flex: 0.5 1 0px;
 	border-right: solid 1px #838383;
+	padding-top: 50px;
 }
-
 .container {
 	display: flex;
 	flex: 2 2 0px;
